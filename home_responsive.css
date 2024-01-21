@@ -209,7 +209,7 @@
 @media (min-width: 1974px) {
 
     .Background_Planos{
-        height: 100vh;
+        height: 95vh;
     }
 
 }
@@ -389,7 +389,7 @@
     }
 
     .Plano_Individual{  /*Aqui*/
-        height: 450px;
+        height: 440px;
         width: 360px;
     }
 
@@ -474,7 +474,8 @@
 @media (min-height: 1365px) {
 
     .Background_Planos{
-        height: 60vh;
+        height: 50vh;
+
     }
 
 
@@ -521,5 +522,12 @@
 
     .Container_Planos{
         width: 100%;
+    }
+}
+
+
+@media (min-height: 1179px){
+    .Background_Planos{
+        height: 90vh;
     }
 }
