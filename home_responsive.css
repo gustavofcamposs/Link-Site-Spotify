@@ -206,6 +206,14 @@
 
 /*Daqui para baixo começa o o "Por que ser Premium?"*/
 
+@media (min-width: 1974px) {
+
+    .Background_Planos{
+        height: 100vh;
+    }
+
+}
+
 
 @media (max-width: 1128px) {
 
