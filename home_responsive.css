@@ -373,7 +373,7 @@
 
 @media (max-width: 987px){
     .Background_Planos{
-        height: 260vh;
+        height: 260vh; /*Mexe na maioria tmb*/
     }
 
     .Container_Planos{
@@ -401,7 +401,11 @@
 
 }
 
-@media (max-width: 400px) {
+@media (max-width: 380px) {
+
+    .Background_Planos{
+        height: 290vh;
+    }
     
     .Container_Plano_Indivudual{
         width: 95%;
@@ -514,6 +518,7 @@
 
 
 @media (max-width: 480px){
+
     .Redes_Sociais{
         width: 55%;
     }
@@ -533,6 +538,11 @@
 
 
 @media (max-width: 390px) {
+
+    /*.Background_Footer{
+        height: 150vh;
+    } FOi colocado no MAX-HEIGHT 720 */
+
     .Redes_Sociais{
         width: 70%;
     }
@@ -665,5 +675,11 @@
 @media (min-height: 1355px){
     .Background_Footer{
         height: 45vh;
+    }
+}
+
+@media (max-height: 720px){
+    .Background_Footer{
+        height: 145vh;
     }
 }
