@@ -665,8 +665,6 @@ Background_Info_Plano_2{
 
     height: 65%;
     width: 78%;
-
-    border: #A5BBD1 solid 1px;
 }
 
 .Imagem_footer{
@@ -716,9 +714,3 @@ Background_Info_Plano_2{
     color: #1ED760;
 }
 
-.Informacoes_do_site{
-    height: 50px;
-    width: 78%;
-
-    border: #C4B1D4 solid 1px;
-}
