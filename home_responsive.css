@@ -443,3 +443,65 @@
 
 
 /*Arrumar o Container dos Planos, eles também ficaram separados ou se sobreporam*/
+
+
+@media (min-height: 1367px) {
+
+    .Background_Planos{
+        height: 60vh;
+    }
+
+
+    .Container_Planos{
+        background-color: blueviolet;
+        height: 80%;
+    }
+
+}
+
+@media (min-height: 1180px) {
+
+    
+    .Background_Planos{
+        height: 95vh;
+    }
+
+    .Container_Planos{
+        width: 100%;
+        height: 95%;
+    }
+}
+
+@media (min-height: 1024px) {
+
+    .Background_Planos{
+        height: 100vh;
+    }
+
+    .Container_Planos{
+        height: 95%;
+        width: 100%;
+    }
+
+    .Container_Plano_Indivudual{
+        width: 370px;
+    }
+}
+
+@media (min-height: 940px) {
+
+    .Background_Planos{
+        height: 110vh;
+    }
+
+    .Container_Planos{
+        background-color: antiquewhite;
+        width: 100%;
+    }
+}
+
+@media (max-height: 939px) {
+    .Container_Planos{
+        background-color: red;
+    }
+}
