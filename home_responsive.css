@@ -445,7 +445,7 @@
 /*Arrumar o Container dos Planos, eles também ficaram separados ou se sobreporam*/
 
 
-@media (min-height: 1367px) {
+@media (min-height: 1365px) {
 
     .Background_Planos{
         height: 60vh;
@@ -453,7 +453,6 @@
 
 
     .Container_Planos{
-        background-color: blueviolet;
         height: 80%;
     }
 
@@ -475,7 +474,7 @@
 @media (min-height: 1024px) {
 
     .Background_Planos{
-        height: 100vh;
+        height: 105vh;
     }
 
     .Container_Planos{
@@ -488,20 +487,14 @@
     }
 }
 
-@media (min-height: 940px) {
+@media (min-height: 900px) {
 
     .Background_Planos{
-        height: 110vh;
+        height: 210vh;
     }
 
     .Container_Planos{
-        background-color: antiquewhite;
         width: 100%;
-    }
-}
-
-@media (max-height: 939px) {
-    .Container_Planos{
-        background-color: red;
+        background-color: antiquewhite;
     }
 }
