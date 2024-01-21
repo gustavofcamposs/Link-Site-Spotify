@@ -298,8 +298,8 @@ body, input, textarea, button {
     height: 75%;
     width: 150px;
 
-    color: white;
-    background-color: #C4B1D4;
+    color: whitesmoke;
+    background-color: #C4B1D4; /*#C4B1D4*/
     border-radius: 25px;
     border: whitesmoke solid 2px;
 
@@ -359,7 +359,7 @@ body, input, textarea, button {
     CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,
     var(--fallback-fonts,sans-serif)),Helvetica,Arial,sans-serif;
     font-size: 38px;
-    color: #FDFDFE;
+    color: #47C072; /*7AF9AB*/
 }
 
 .Vantagens_ser_Premium{
@@ -404,10 +404,10 @@ body, input, textarea, button {
     font-family: var(--font-family,CircularSp,CircularSp-Arab,
     CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,
     CircularSp-Deva,var(--fallback-fonts,sans-serif));
-    font-weight: bold;
+    font-weight: bolder;
 
     font-size: 18px;
-    color: #C4B1D4;/*#BDF8A3*/
+    color: white;/*#C4B1D4*/
 }
 
 .Descricao_ser_Premium{
@@ -679,6 +679,8 @@ Background_Info_Plano_2{
 
     height: 320px;
     width: 65%;
+
+    border: violet solid 1px;
 }
 
 .Redes_Sociais{
