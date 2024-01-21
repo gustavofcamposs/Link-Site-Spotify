@@ -295,6 +295,24 @@
         height: 115px;
         width: 115px;
     }
+
+
+    #Sub_Descricao_Plano_4{
+        height: 50%;
+    }
+
+    #Plano_Individual_4{
+        height: 440px;
+    }
+
+    #Background_Botao_Plano_4{
+        height: 18%;
+    }
+
+    .Lista_Descricao_Plano{
+        height: 100%;
+
+    }
 }
 
 @media (max-width: 376px){
